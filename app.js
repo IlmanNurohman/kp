@@ -191,11 +191,11 @@ function displaySelectedResults() {
   }
 
   let tableHTML = `
-        <table style="width: 100%; border-collapse: collapse;">
+        <table>
             <thead>
                 <tr>
-                    <th style="text-align: left; padding: 10px; border-bottom: 1px solid #ccc;">Nama Limbah</th>
-                    <th style="text-align: right; padding: 10px; border-bottom: 1px solid #ccc;">Harga</th>
+                    <td style="text-align: left; padding: 10px; border-bottom: 1px solid #ccc;">Nama Limbah</td>
+                    <td style="text-align: right; padding: 10px; border-bottom: 1px solid #ccc;">Harga</td>
                 </tr>
             </thead>
             <tbody>
@@ -218,4 +218,5 @@ function displaySelectedResults() {
     `;
 
   results.innerHTML = tableHTML;
+  console.log(tableHTML);
 }

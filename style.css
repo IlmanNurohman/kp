@@ -417,11 +417,6 @@ table {
   width: 100%;
 }
 
-table tr {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
 
 table td {
   margin-bottom: 5px; /* Space between label and input */
